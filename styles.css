@@ -223,6 +223,20 @@ nav .right a span {
   border-radius: 20px;
 }
 
+/* CONTACT */
+
+.contact {
+    text-align: center;
+    padding: 100px;
+}
+
+.contact h2 {
+    padding-bottom: 20px;
+}
+
+
+
+
 @media (max-width: 800px) {
   .hero .text h2 {
     font-size: 35px;
