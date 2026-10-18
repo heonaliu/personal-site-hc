@@ -1,7 +1,7 @@
 # Heona Website
 
 ## What:
-- This is a personal website with some of my projects, my artworks, and general about me. Along with a contact card.
+- This is a personal website with some of my proudest projects, my artworks, and general about me. Along with a contact section.
 
 ## Purpose of Site:
 - This site was made by Heona as a way to create something personal as well as practicing the basics like HTML and CSS since I haven't practiced this in a very long time. I also wanted to create a site from basic HTML and CSS from scratch and see what I could do.
