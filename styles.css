@@ -68,7 +68,8 @@ nav .right a span {
     padding: 0 50px;
     margin: 50px 0;
     align-items: center;
-    gap: 40px
+    gap: 40px;
+    margin-bottom: 100px;
 }
 
 .hero .text {
@@ -99,6 +100,9 @@ nav .right a span {
 
 .hero .image {
     flex: 2;
+    display: flex;
+    justify-content: right /* stays to the right of the page */
+    
 }
 
 .hero .image img {
@@ -106,6 +110,28 @@ nav .right a span {
     width: 300px;
     height: 400px;
 }
+
+@media (max-width: 800px)
+{
+    .hero .text h2 {
+        font-size: 35px;
+    }
+
+
+
+}
+
+@media (max-width: 740px) {
+    .hero {
+        flex-direction: column-reverse; /*places image above the text */
+        
+
+    }
+
+
+
+}
+
 
 @media(max-width: 600px) {
     /* only applies to screes 600px and less */
@@ -115,7 +141,7 @@ nav .right a span {
     }
 
     nav .right a {
-        font-size:22px
+        font-size: 22px;
     }
 
     nav .right a:last-child {
@@ -126,6 +152,15 @@ nav .right a span {
 
     nav .right span {
         display: none;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 0 20px;
+    }
+
+    .hero .text h2 {
+        font-size: 30px
     }
 }
 
