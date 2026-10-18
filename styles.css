@@ -50,14 +50,15 @@ nav .left {
 
 nav .right {
   color: var(--text-color);
-  margin: 0 10px; /* this creates spacing in between the icons */
+  margin: 0 30px; /* this creates spacing in between the icons */
 }
 
 nav .right a:last-child {
   color: var(--background-color);
   background-color: var(--text-color);
-  padding: 5px 15px;
+  padding: 5px 10px;
   border-radius: 5px;
+  margin-left: 50px
 }
 
 /* targets specifically the span tag within a tag */
