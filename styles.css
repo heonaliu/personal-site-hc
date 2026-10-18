@@ -211,7 +211,7 @@ nav .right a span {
 }
 
 .art h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .art .artworks img {
@@ -226,16 +226,13 @@ nav .right a span {
 /* CONTACT */
 
 .contact {
-    text-align: center;
-    padding: 100px;
+  text-align: center;
+  padding: 100px;
 }
 
 .contact h2 {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
-
-
-
 
 @media (max-width: 800px) {
   .hero .text h2 {
