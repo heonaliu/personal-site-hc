@@ -1,0 +1,28 @@
+:root {
+    /* creating variables for the text colors here */
+    --text-color: #1a1c28;
+    --link-color: #00ccff;
+    --background-color: #eeeff1;
+}
+
+/* applies to the entirety of the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* targets specific tags */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+    background-color: var(--background-color);
+}
+/* anchor tags */
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
