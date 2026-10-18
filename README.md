@@ -9,7 +9,7 @@
 - 
 
 ## Challenges I Faced:
-- When writing the Navbar, I connected the styles.css with the html and said that the a tags had to have no decoration. However, when I put text with an "a" tag it still showed underline (meaning there was decoration).
+- When writing the Navbar, I connected the styles.css with the html and said that the a tags had to have no decoration. However, when I put text with an "a" tag it still showed underline (meaning there was decoration). I realized later that this is due to a typo in the stylesheet link (I typed style.css rather than styles.css). There was nothing wrong with my styles.css file - it was the linking that was the issue.
 
 
 ## What I'm Most Proud of:
