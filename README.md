@@ -9,5 +9,7 @@
 - 
 
 ## Challenges I Faced:
+- When writing the Navbar, I connected the styles.css with the html and said that the a tags had to have no decoration. However, when I put text with an "a" tag it still showed underline (meaning there was decoration).
+
 
 ## What I'm Most Proud of:
