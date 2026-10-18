@@ -101,6 +101,11 @@ nav .right a span {
     flex: 2;
 }
 
+.hero .image img {
+    border-radius: 50px;
+    width: 300px;
+    height: 400px;
+}
 
 @media(max-width: 600px) {
     /* only applies to screes 600px and less */
